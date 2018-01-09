@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/cookie.png" type="image/png" sizes="16x16">
+    <title>Kulinaria.pl</title>
+    
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body >
+    <!-- Start of first page -->
+    <div data-role="page" id="one" >
+            <div class="header" data-role="header" data-position="fixed"  data-theme="a">
+                <h1></h1>
+                <a rel="external" href="index.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right"></a>
+            </div>
+            <div role="main" class="ui-content">
+                <div class="ui-grid-solo">
+                    <div class="photos-container ui-block-a" style="padding: 20px;">
+                        <img src="img/gofry.jpg" alt="img" style="border-radius:15px" />
+                    </div>
+                    <div class="" style="padding: 20px; padding-top:0px;">
+                        <div data-role="collapsibleset" data-content-theme="a" data-iconpos="right" id="s">
+                            <div data-role="collapsible" id="s1" data-collapsed="true">
+                                <h3>Czas przygotowania</h3>
+                                <p>Brak danych</p>
+                            </div>
+                            <div data-role="collapsible" id="s2" data-collapsed="true">
+                                <h3>Poziom trudności</h3>
+                                <p>Brak danych</p>
+                            </div>
+                            <div data-role="collapsible" id="s3" data-collapsed="true">
+                                <h3>Ilość porcji</h3>
+                                <p>Brak danych </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /content -->
+            <div data-role="footer" data-position="fixed" data-theme="a">
+                <div data-role="navbar" data-iconpos="left" data-grid="c">
+                    <ul>
+                        <li><a data-icon="home" href="#one" class="ui-btn-active ui-state-persist" data-ajax="false">Opis</a></li>
+                        <li><a data-icon="bullets" href="#two"  data-ajax="false">Składniki</a></li>
+                        <li><a data-icon="check" href="#three" data-ajax="false">Przepis</a></li>
+                        <li><a data-icon="tag" href="#four" data-ajax="false">Porady</a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div>
+            <!-- /footer -->
+        </div>
+        <!-- /page -->
+
+        <!-- Start of page2 -->
+        <div data-role="page" id="two">
+            <div class="header" data-role="header" data-position="fixed" data-theme="a">
+                <h1>Header</h1>
+                <a rel="external" href="index.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right"></a>
+            </div>
+            <div role="main" class="ui-content">
+                <div class="ui-grid-solo">
+                    <div class="components">
+                        <!-- CHECKBOX FOR COMPONENTS -->   
+                    </div>
+                </div>
+            </div>
+            <!-- /content -->
+            <div data-role="footer" data-position="fixed" data-theme="a">
+                <div data-role="navbar" data-iconpos="left" data-grid="c">
+                    <ul>
+                        <li><a data-icon="home" href="#one" data-ajax="false">Opis</a></li>
+                        <li><a data-icon="bullets" href="#two" class="ui-btn-active ui-state-persist" data-ajax="false">Składniki</a></li>
+                        <li><a data-icon="check" href="#three" data-ajax="false">Przepis</a></li>
+                        <li><a data-icon="tag" href="#four" data-ajax="false">Porady</a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div>
+            <!-- /footer -->
+        </div>
+        <!-- /page -->
+
+        <!-- Start of  page3 -->
+        <div data-role="page" id="three">
+            <div data-role="header" class="header" data-position="fixed" data-theme="a">
+                <h1>Header</h1>
+                <a rel="external" href="index.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right"></a>
+            </div>
+            <div role="main" class="ui-content">
+                <div class="ui-grid-solo">
+                    <div >
+                        <h3 class="ui-bar ui-bar-a ui-corner-all">Przepis:</h3>
+                        <div class="ui-body ui-body-a ui-corner-all" id="recipeContent">
+                            <p>Brak danych</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-grid-solo">
+                    <div>
+                        <h3 class="ui-bar ui-bar-a ui-corner-all">Notatki</h3>
+                        <div class="ui-body ui-body-a ui-corner-all">
+                            <label for="nick">Nick:</label>
+                            <input name="text-basic" id="nick" value="" type="text">
+                            <label for="tag">Notatka:</label>
+                            <textarea cols="40" rows="5" name="textarea" id="tag"></textarea>
+                            <button type="button" data-icon="plus" data-iconpos="right" data-mini="true" data-inline="true" id="add">Dodaj notatkę</button>
+                        </div>
+                        <div data-role="collapsibleset" data-content-theme="a" data-iconpos="right" id="set"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- /content -->
+            <div data-role="footer" data-position="fixed" data-theme="a">
+                <div data-role="navbar" data-iconpos="left" data-grid="c">
+                    <ul>
+                        <li><a data-icon="home" href="#one" data-ajax="false">Opis</a></li>
+                        <li><a data-icon="bullets" href="#two" data-ajax="false">Składniki</a></li>
+                        <li><a data-icon="check"  class="ui-btn-active ui-state-persist" href="#three" data-ajax="false">Przepis</a></li>
+                        <li><a data-icon="tag" href="#four" data-ajax="false">Porady</a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div>
+            <!-- /footer -->
+        </div>
+        <!-- /page -->
+
+        <!-- Start of  page4 -->
+        <div data-role="page" id="four">
+            <div data-role="header" class="header" data-position="fixed" data-theme="a">
+                <h1>Header</h1>
+                <a rel="external" href="index.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right"></a>
+            </div>
+            <div role="main" class="ui-content">
+                
+            </div>
+            <!-- /content -->
+            <div data-role="footer" data-position="fixed" data-theme="a">
+                <div data-role="navbar" data-iconpos="left" data-grid="c">
+                    <ul>
+                        <li><a data-icon="home" href="#one" data-ajax="false">Opis</a></li>
+                        <li><a data-icon="bullets" href="#two" data-ajax="false">Składniki</a></li>
+                        <li><a data-icon="check"  href="#three" data-ajax="false">Przepis</a></li>
+                        <li><a data-icon="tag" class="ui-btn-active ui-state-persist" href="#four" data-ajax="false">Porady</a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div>
+            <!-- /footer -->
+        </div>
+        <!-- /page -->
+ 
+
+
+
+    <!-- skrypty -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+    <script>
+        // $(function() {
+		// 	$( "[data-role='navbar']" ).navbar();
+		// 	$( "[data-role='header'], [data-role='footer']" ).toolbar();
+		// });
+		// // Update the contents of the toolbars
+		// $( document ).on( "pageshow", "[data-role='page']", function() {
+		// 	// Each of the four pages in this demo has a data-title attribute
+		// 	// which value is equal to the text of the nav button
+		// 	// For example, on first page: <div data-role="page" data-title="Info">
+		// 	var current = $( this ).jqmData( "title" );
+		// 	// Change the heading
+		// 	$( "[data-role='header'] h1" ).text( current );
+		// 	// Remove active class from nav buttons
+		// 	$( "[data-role='navbar'] a.ui-btn-active" ).removeClass( "ui-btn-active" );
+		// 	// Add active class to current nav button
+		// 	$( "[data-role='navbar'] a" ).each(function() {
+		// 		if ( $( this ).text() === current ) {
+		// 			$( this ).addClass( "ui-btn-active" );
+		// 		}
+		// 	});
+		// });
+    </script>
+
+    <script>
+        $( document ).ready(function() {
+            //getJsonData('file2.json');
+
+            $.get("recipe.html", function (data) {
+                $(".result").html(data);
+                alert(data.name);
+            });
+
+            //alert("hej");
+        });
+    </script>
+
+    <script>
+        var dataJSON;
+        
+        function checkCookies() {
+            var text = "";
+
+            if (navigator.cookieEnabled == true) {
+            text = "Cookies are enabled.";
+            } else {
+                text = "Cookies are not enabled.";
+            }
+
+            alert(text);
+        }
+
+        function getJsonData(url) {
+            $.getJSON(url, function(data) {
+                dataJSON = data;
+                
+                var index = <?php echo $_GET["id"]; ?>;
+                var name = dataJSON[index].name;
+                $('.header>h1').text(name);
+
+                var urlImage = dataJSON[index].url;
+                $('.photos-container>img').attr('src', urlImage);
+                $('.photos-container>img').attr('alt', name);
+                document.title = name;
+
+                var time = dataJSON[index].time;
+                var level = dataJSON[index].level;
+                var portions = dataJSON[index].portions;
+                $( "#s1 p" ).text(time);
+                $( "#s2 p" ).text(level);
+                $( "#s3 p" ).text(portions);
+
+                var gradients = dataJSON[index].gradients;
+                $("#two .components").html('<fieldset data-role="controlgroup"><h3 class="ui-bar ui-bar-a ui-corner-all">Składniki:</h3></fieldset>');          
+                $.each(gradients, function(gradient, quantity) {
+                    $("fieldset").append('<input type="checkbox" name="' + quantity + '" id="id' + gradient + '"><label for="id' + gradient + '">' + gradient + ' : ' + quantity + '</label>');
+                });
+                $("#two .components").trigger('create');
+
+                var nextId = 1;
+                $("#add").click(function () {
+                    nextId++;
+                    var nick = $('#nick').val();
+                    var mess = $('#tag').val();
+                    var content = "<div data-role='collapsible' id='set" + nextId + "'><h3>" + nick + "</h3><p>" + mess + "</p></div>";
+                    $("#set").append(content).collapsibleset("refresh");
+                });
+
+                var recipe = dataJSON[index].recipe;
+                $("#three #recipeContent p").text(recipe);
+            
+
+            });
+        }
+    </script>
+
+
+</body>
+
+</html>

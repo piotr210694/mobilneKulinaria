@@ -1,0 +1,211 @@
+[{
+    "name": "Gofry",
+    "author": "Adam Makuszewski",
+    "url": "img/gofry.jpg",
+    "describe": "Przepis na pyszne i chrupiące gofry.",
+    "gradients": {
+      "jajka": "2",
+      "mąka": "300g",
+      "mleko": "2 szklanki",
+      "olej rzepakowy": "1/3 szklanki",
+      "cukier": "2 łyżki"
+    },
+    "recipe": "W pierwszej ",
+    "time": "40 min",
+    "level": "łatwe",
+    "portions": "10 gofrów",
+    "tips": {
+      "Podawaj z cukrem pudrem": "Najlepiej smakują posypane cukrem pudrem.",
+      "Studź na kratce": "Gofry studzone na kratce nie zrobią się gumowate."
+    }
+},
+{
+    "name": "2",
+    "author": "Adam Makuszewski",
+    "url": "img/gofry.jpg",
+    "describe": "Przepis na pyszne i chrupiące gofry.",
+    "gradients": {
+      "jajka": "2",
+      "mąka": "300g",
+      "mleko": "2 szklanki",
+      "olej rzepakowy": "1/3 szklanki",
+      "cukier": "2 łyżki"
+    },
+    "recipe": "W pierszej kolejności...",
+    "time": "40 min",
+    "level": "łatwe",
+    "portions": "10 gofrów",
+    "tips": {
+      "Podawaj z cukrem pudrem": "Najlepiej smakują posypane cukrem pudrem.",
+      "Studź na kratce": "Gofry studzone na kratce nie zrobią się gumowate."
+    }
+},
+{
+  "name": "3",
+  "author": "Adam Makuszewski",
+  "url": "img/gofry.jpg",
+  "describe": "Przepis na pyszne i chrupiące gofry.",
+  "gradients": {
+    "jajka": "2",
+    "mąka": "300g",
+    "mleko": "2 szklanki",
+    "olej rzepakowy": "1/3 szklanki",
+    "cukier": "2 łyżki"
+  },
+  "recipe": "W pierszej kolejności...",
+  "time": "40 min",
+  "level": "łatwe",
+  "portions": "10 gofrów",
+  "tips": {
+    "Podawaj z cukrem pudrem": "Najlepiej smakują posypane cukrem pudrem.",
+    "Studź na kratce": "Gofry studzone na kratce nie zrobią się gumowate."
+  }
+},
+{
+  "name": "4",
+  "author": "Adam Makuszewski",
+  "url": "img/gofry.jpg",
+  "describe": "Przepis na pyszne i chrupiące gofry.",
+  "gradients": {
+    "jajka": "2",
+    "mąka": "300g",
+    "mleko": "2 szklanki",
+    "olej rzepakowy": "1/3 szklanki",
+    "cukier": "2 łyżki"
+  },
+  "recipe": "W pierszej kolejności...",
+  "time": "40 min",
+  "level": "łatwe",
+  "portions": "10 gofrów",
+  "tips": {
+    "Podawaj z cukrem pudrem": "Najlepiej smakują posypane cukrem pudrem.",
+    "Studź na kratce": "Gofry studzone na kratce nie zrobią się gumowate."
+  }
+},
+{
+  "name": "5",
+  "author": "Adam Makuszewski",
+  "url": "img/gofry.jpg",
+  "describe": "Przepis na pyszne i chrupiące gofry.",
+  "gradients": {
+    "jajka": "2",
+    "mąka": "300g",
+    "mleko": "2 szklanki",
+    "olej rzepakowy": "1/3 szklanki",
+    "cukier": "2 łyżki"
+  },
+  "recipe": "W pierszej kolejności...",
+  "time": "40 min",
+  "level": "łatwe",
+  "portions": "10 gofrów",
+  "tips": {
+    "Podawaj z cukrem pudrem": "Najlepiej smakują posypane cukrem pudrem.",
+    "Studź na kratce": "Gofry studzone na kratce nie zrobią się gumowate."
+  }
+},
+{
+  "name": "6",
+  "author": "Adam Makuszewski",
+  "url": "img/gofry.jpg",
+  "describe": "Przepis na pyszne i chrupiące gofry.",
+  "gradients": {
+    "jajka": "2",
+    "mąka": "300g",
+    "mleko": "2 szklanki",
+    "olej rzepakowy": "1/3 szklanki",
+    "cukier": "2 łyżki"
+  },
+  "recipe": "W pierszej kolejności...",
+  "time": "40 min",
+  "level": "łatwe",
+  "portions": "10 gofrów",
+  "tips": {
+    "Podawaj z cukrem pudrem": "Najlepiej smakują posypane cukrem pudrem.",
+    "Studź na kratce": "Gofry studzone na kratce nie zrobią się gumowate."
+  }
+},
+{
+  "name": "7",
+  "author": "Adam Makuszewski",
+  "url": "img/gofry.jpg",
+  "describe": "Przepis na pyszne i chrupiące gofry.",
+  "gradients": {
+    "jajka": "2",
+    "mąka": "300g",
+    "mleko": "2 szklanki",
+    "olej rzepakowy": "1/3 szklanki",
+    "cukier": "2 łyżki"
+  },
+  "recipe": "W pierszej kolejności...",
+  "time": "40 min",
+  "level": "łatwe",
+  "portions": "10 gofrów",
+  "tips": {
+    "Podawaj z cukrem pudrem": "Najlepiej smakują posypane cukrem pudrem.",
+    "Studź na kratce": "Gofry studzone na kratce nie zrobią się gumowate."
+  }
+},
+{
+  "name": "8",
+  "author": "Adam Makuszewski",
+  "url": "img/gofry.jpg",
+  "describe": "Przepis na pyszne i chrupiące gofry.",
+  "gradients": {
+    "jajka": "2",
+    "mąka": "300g",
+    "mleko": "2 szklanki",
+    "olej rzepakowy": "1/3 szklanki",
+    "cukier": "2 łyżki"
+  },
+  "recipe": "W pierszej kolejności...",
+  "time": "40 min",
+  "level": "łatwe",
+  "portions": "10 gofrów",
+  "tips": {
+    "Podawaj z cukrem pudrem": "Najlepiej smakują posypane cukrem pudrem.",
+    "Studź na kratce": "Gofry studzone na kratce nie zrobią się gumowate."
+  }
+},
+{
+  "name": "9",
+  "author": "Adam Makuszewski",
+  "url": "img/gofry.jpg",
+  "describe": "Przepis na pyszne i chrupiące gofry.",
+  "gradients": {
+    "jajka": "2",
+    "mąka": "300g",
+    "mleko": "2 szklanki",
+    "olej rzepakowy": "1/3 szklanki",
+    "cukier": "2 łyżki"
+  },
+  "recipe": "W pierszej kolejności...",
+  "time": "40 min",
+  "level": "łatwe",
+  "portions": "10 gofrów",
+  "tips": {
+    "Podawaj z cukrem pudrem": "Najlepiej smakują posypane cukrem pudrem.",
+    "Studź na kratce": "Gofry studzone na kratce nie zrobią się gumowate."
+  }
+},
+{
+  "name": "10",
+  "author": "Adam Makuszewski",
+  "url": "img/gofry.jpg",
+  "describe": "Przepis na pyszne i chrupiące gofry.",
+  "gradients": {
+    "jajka": "2",
+    "mąka": "300g",
+    "mleko": "2 szklanki",
+    "olej rzepakowy": "1/3 szklanki",
+    "cukier": "2 łyżki"
+  },
+  "recipe": "W pierszej kolejności...",
+  "time": "40 min",
+  "level": "łatwe",
+  "portions": "10 gofrów",
+  "tips": {
+    "Podawaj z cukrem pudrem": "Najlepiej smakują posypane cukrem pudrem.",
+    "Studź na kratce": "Gofry studzone na kratce nie zrobią się gumowate."
+  }
+}
+]
