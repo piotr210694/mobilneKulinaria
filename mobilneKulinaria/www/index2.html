@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/cookie.png" type="image/png" sizes="16x16">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src * 'self' data: https:">
+
+    <link rel="icon" href="http://pioter94.cba.pl/img/cookie.png" type="image/png" sizes="16x16">
     <title>Kulinaria.pl</title>
 
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
@@ -13,12 +16,13 @@
 </head>
 
 <!-- data-prefetch || do linkow a na koncu -->
-<body data-dom-cache="true">
+<body >
     <div data-role="page" data-theme="a" data-add-back-btn="true">
         <div data-role="">
             <div data-role="header" data-add-back-btn="true" data-position="fixed">
                 <h1>Desery</h1>
-                <a href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right"></a>
+                <a rel="external" href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right"></a>
+                <a href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext ui-btn-inline ui-btn-left refresh"></a>
             </div>
             <ul id="listView_dessert" data-role="listview">
                 <!-- ELEMENTS FROM JSON -->
@@ -31,15 +35,20 @@
     <div data-role="page" id="one">
         <div class="header" data-role="header" data-position="fixed" data-theme="a">
             <h1></h1>
-            <a rel="external" href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right"></a>
+            <a rel="external" href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right" ></a>
+            <a href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext ui-btn-inline ui-btn-left refresh"></a>
         </div>
         <div role="main" class="ui-content">
             <div class="ui-grid-solo">
                 <div class="photos-container ui-block-a" style="padding: 20px;">
-                    <img src="img/gofry.jpg" alt="img" style="border-radius:15px" />
+                    <img src="" alt="img" style="border-radius:15px" />
                 </div>
                 <div class="" style="padding: 20px; padding-top:0px;">
                     <div data-role="collapsibleset" data-content-theme="a" data-iconpos="right" id="s">
+                        <div data-role="collapsible" id="s0" data-collapsed="false">
+                            <h3>Krótki opis</h3>
+                            <p>Brak danych</p>
+                        </div>
                         <div data-role="collapsible" id="s1" data-collapsed="true">
                             <h3>Czas przygotowania</h3>
                             <p>Brak danych</p>
@@ -76,6 +85,7 @@
         <div class="header" data-role="header" data-position="fixed" data-theme="a">
             <h1>Header</h1>
             <a rel="external" href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right"></a>
+            <a href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext ui-btn-inline ui-btn-left refresh"></a>
         </div>
         <div role="main" class="ui-content">
             <div class="ui-grid-solo">
@@ -104,6 +114,7 @@
         <div data-role="header" class="header" data-position="fixed" data-theme="a">
             <h1>Header</h1>
             <a rel="external" href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right"></a>
+            <a href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext ui-btn-inline ui-btn-left refresh"></a>
         </div>
         <div role="main" class="ui-content">
             <div class="ui-grid-solo">
@@ -148,6 +159,7 @@
         <div data-role="header" class="header" data-position="fixed" data-theme="a">
             <h1>Header</h1>
             <a rel="external" href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline ui-btn-right"></a>
+            <a href="index2.html" class="ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext ui-btn-inline ui-btn-left refresh"></a>
         </div>
         <div role="main" class="ui-content">
             <h3 class="ui-bar ui-bar-a ui-corner-all">Porady:</h3>
@@ -174,9 +186,7 @@
 
     <script src="js/script.js"></script>
 
-    <script>
-
-    </script>
+    <script type="text/javascript" src="cordova.js"></script>
 
 </body>
 
